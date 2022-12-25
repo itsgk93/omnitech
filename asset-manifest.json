@@ -1,22 +1,33 @@
 {
   "files": {
     "main.css": "/omnitech/static/css/main.2c40aa8f.css",
-    "main.js": "/omnitech/static/js/main.ca8bbabf.js",
+    "main.js": "/omnitech/static/js/main.c6b479ec.js",
     "static/media/devops.jpeg": "/omnitech/static/media/devops.443261298aa8db557f4e.jpeg",
     "static/media/aiml.jpeg": "/omnitech/static/media/aiml.6e2187cc049bc95ec14c.jpeg",
+    "static/media/video-placeholder.jpg": "/omnitech/static/media/video-placeholder.ca40af5667c998a65125.jpg",
     "static/media/devops1.jpeg": "/omnitech/static/media/devops1.e16069539e7229e77ccc.jpeg",
     "static/media/cloud.jpeg": "/omnitech/static/media/cloud.80116460c899c45423c9.jpeg",
+    "static/media/devops1.png": "/omnitech/static/media/devops1.11055580e9d1e2a40f22.png",
     "static/media/illustration-section-01.svg": "/omnitech/static/media/illustration-section-01.980998916c8e9369ffab.svg",
+    "static/media/features-split-image-01.png": "/omnitech/static/media/features-split-image-01.94b14c16e7643460bbd8.png",
+    "static/media/aiml.png": "/omnitech/static/media/aiml.f7b9bcf7322d6fb6960c.png",
+    "static/media/features-split-image-03.png": "/omnitech/static/media/features-split-image-03.7bd671553abb3e7dbbca.png",
+    "static/media/features-split-image-02.png": "/omnitech/static/media/features-split-image-02.49942613e3afa031ac83.png",
     "static/media/illustration-section-02.svg": "/omnitech/static/media/illustration-section-02.f11c21a9745d2454b81c.svg",
     "static/media/cta-illustration.svg": "/omnitech/static/media/cta-illustration.79633e4594ec76a3f01f.svg",
     "static/media/logo.svg": "/omnitech/static/media/logo.3b931fc4e4e9f7c9174bc2162314e585.svg",
     "index.html": "/omnitech/index.html",
+    "static/media/feature-tile-icon-06.svg": "/omnitech/static/media/feature-tile-icon-06.74b0477e38710535bd0e.svg",
+    "static/media/feature-tile-icon-05.svg": "/omnitech/static/media/feature-tile-icon-05.af2bae113bcfafa4ecea.svg",
+    "static/media/feature-tile-icon-04.svg": "/omnitech/static/media/feature-tile-icon-04.1acd4dacd4ddf306c2e7.svg",
+    "static/media/feature-tile-icon-03.svg": "/omnitech/static/media/feature-tile-icon-03.69e94e20efba08327709.svg",
     "static/media/feature-tile-icon-01.svg": "/omnitech/static/media/feature-tile-icon-01.e13cef8e30c0472fc8b303cc0801113f.svg",
+    "static/media/feature-tile-icon-02.svg": "/omnitech/static/media/feature-tile-icon-02.469356592c7ce3b1abf5.svg",
     "main.2c40aa8f.css.map": "/omnitech/static/css/main.2c40aa8f.css.map",
-    "main.ca8bbabf.js.map": "/omnitech/static/js/main.ca8bbabf.js.map"
+    "main.c6b479ec.js.map": "/omnitech/static/js/main.c6b479ec.js.map"
   },
   "entrypoints": [
     "static/css/main.2c40aa8f.css",
-    "static/js/main.ca8bbabf.js"
+    "static/js/main.c6b479ec.js"
   ]
 }
