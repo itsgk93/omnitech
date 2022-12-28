@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/omnitech/static/css/main.2c40aa8f.css",
-    "main.js": "/omnitech/static/js/main.8ffdd843.js",
+    "main.js": "/omnitech/static/js/main.24e578dc.js",
     "static/media/devops.jpeg": "/omnitech/static/media/devops.443261298aa8db557f4e.jpeg",
     "static/media/aiml.jpeg": "/omnitech/static/media/aiml.6e2187cc049bc95ec14c.jpeg",
     "static/media/video-placeholder.jpg": "/omnitech/static/media/video-placeholder.ca40af5667c998a65125.jpg",
@@ -24,10 +24,10 @@
     "static/media/feature-tile-icon-01.svg": "/omnitech/static/media/feature-tile-icon-01.e13cef8e30c0472fc8b303cc0801113f.svg",
     "static/media/feature-tile-icon-02.svg": "/omnitech/static/media/feature-tile-icon-02.469356592c7ce3b1abf5.svg",
     "main.2c40aa8f.css.map": "/omnitech/static/css/main.2c40aa8f.css.map",
-    "main.8ffdd843.js.map": "/omnitech/static/js/main.8ffdd843.js.map"
+    "main.24e578dc.js.map": "/omnitech/static/js/main.24e578dc.js.map"
   },
   "entrypoints": [
     "static/css/main.2c40aa8f.css",
-    "static/js/main.8ffdd843.js"
+    "static/js/main.24e578dc.js"
   ]
 }
