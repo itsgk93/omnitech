@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/omnitech/static/css/main.a494641e.css",
-    "main.js": "/omnitech/static/js/main.b91f9a39.js",
+    "main.js": "/omnitech/static/js/main.8d8099d7.js",
     "static/media/aiml.jpeg": "/omnitech/static/media/aiml.4eb5df0cf767a098ae1a.jpeg",
     "static/media/devops1.jpeg": "/omnitech/static/media/devops1.50b4bd16580bb4b6f1fb.jpeg",
     "static/media/cloud.jpeg": "/omnitech/static/media/cloud.0838470fa4c22b392125.jpeg",
@@ -13,10 +13,10 @@
     "static/media/logo.svg": "/omnitech/static/media/logo.c1e9531ad45e720f742cf871c1d5c389.svg",
     "index.html": "/omnitech/index.html",
     "main.a494641e.css.map": "/omnitech/static/css/main.a494641e.css.map",
-    "main.b91f9a39.js.map": "/omnitech/static/js/main.b91f9a39.js.map"
+    "main.8d8099d7.js.map": "/omnitech/static/js/main.8d8099d7.js.map"
   },
   "entrypoints": [
     "static/css/main.a494641e.css",
-    "static/js/main.b91f9a39.js"
+    "static/js/main.8d8099d7.js"
   ]
 }
