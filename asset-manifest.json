@@ -1,22 +1,32 @@
 {
   "files": {
     "main.css": "/omnitech/static/css/main.a494641e.css",
-    "main.js": "/omnitech/static/js/main.8d8099d7.js",
-    "static/media/aiml.jpeg": "/omnitech/static/media/aiml.4eb5df0cf767a098ae1a.jpeg",
-    "static/media/devops1.jpeg": "/omnitech/static/media/devops1.50b4bd16580bb4b6f1fb.jpeg",
-    "static/media/cloud.jpeg": "/omnitech/static/media/cloud.0838470fa4c22b392125.jpeg",
-    "static/media/devops.jpeg": "/omnitech/static/media/devops.443261298aa8db557f4e.jpeg",
+    "main.js": "/omnitech/static/js/main.4a3f5b58.js",
+    "static/media/aiml.jpeg": "/omnitech/static/media/aiml.6af9a5b6ecd13bfed2cb.jpeg",
+    "static/media/cloudB.jpeg": "/omnitech/static/media/cloudB.eaf38d2bab8a173e408f.jpeg",
+    "static/media/automation.jpeg": "/omnitech/static/media/automation.42a05a3686ed46761062.jpeg",
+    "static/media/AdobeStock_220609182.jpeg": "/omnitech/static/media/AdobeStock_220609182.1b169854e0be217d6386.jpeg",
+    "static/media/cloud.jpeg": "/omnitech/static/media/cloud.9eaae20eaaf9026a61ba.jpeg",
+    "static/media/main_pic_old.jpeg": "/omnitech/static/media/main_pic_old.8fcd210d43994c16ade5.jpeg",
+    "static/media/main_pic.jpeg": "/omnitech/static/media/main_pic.09c80ffc5c3d038a00de.jpeg",
+    "static/media/devops.jpeg": "/omnitech/static/media/devops.f901abd31f4f60c05e40.jpeg",
+    "static/media/AdobeStock_126466139.jpeg": "/omnitech/static/media/AdobeStock_126466139.244aa0682a99e593d3d1.jpeg",
+    "static/media/DevOps1-Adobe.jpeg": "/omnitech/static/media/DevOps1-Adobe.5863679106dcbabf33f9.jpeg",
+    "static/media/aiml_old.jpeg": "/omnitech/static/media/aiml_old.4eb5df0cf767a098ae1a.jpeg",
+    "static/media/devops_old.jpeg": "/omnitech/static/media/devops_old.50b4bd16580bb4b6f1fb.jpeg",
+    "static/media/cloud_old.jpeg": "/omnitech/static/media/cloud_old.0838470fa4c22b392125.jpeg",
     "static/media/video-placeholder.jpg": "/omnitech/static/media/video-placeholder.ca40af5667c998a65125.jpg",
+    "static/media/devops.png": "/omnitech/static/media/devops.8f45059e12999b17af9f.png",
     "static/media/illustration-section-01.svg": "/omnitech/static/media/illustration-section-01.980998916c8e9369ffab.svg",
     "static/media/illustration-section-02.svg": "/omnitech/static/media/illustration-section-02.f11c21a9745d2454b81c.svg",
     "static/media/cta-illustration.svg": "/omnitech/static/media/cta-illustration.79633e4594ec76a3f01f.svg",
-    "static/media/logo.svg": "/omnitech/static/media/logo.c1e9531ad45e720f742cf871c1d5c389.svg",
+    "static/media/logo.svg": "/omnitech/static/media/logo.1000875a2a6a936d8954a2e86027e049.svg",
     "index.html": "/omnitech/index.html",
     "main.a494641e.css.map": "/omnitech/static/css/main.a494641e.css.map",
-    "main.8d8099d7.js.map": "/omnitech/static/js/main.8d8099d7.js.map"
+    "main.4a3f5b58.js.map": "/omnitech/static/js/main.4a3f5b58.js.map"
   },
   "entrypoints": [
     "static/css/main.a494641e.css",
-    "static/js/main.8d8099d7.js"
+    "static/js/main.4a3f5b58.js"
   ]
 }
