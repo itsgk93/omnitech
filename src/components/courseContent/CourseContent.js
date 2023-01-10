@@ -3,7 +3,6 @@ import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
 import SectionHeader from "../sections/partials/SectionHeader";
 import Course from "../sections/Courses";
-import { coursesData } from "../constants";
 
 const propTypes = {
   ...SectionSplitProps.types,
