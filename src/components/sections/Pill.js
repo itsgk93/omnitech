@@ -9,7 +9,7 @@ const contentComp = (desc) => (
 
 const Pill = ({title, desc}) => (
   <Popover content={contentComp(desc)} title={title} style={{width: "90%"}} >
-    <Button type="primary" style={{width: window.innerWidth < 500 ? window.innerWidth * .75 : 200}}>{title}</Button>
+    <Button type="default" style={{width: window.innerWidth < 500 ? window.innerWidth * .75 : 200}}>{title}</Button>
   </Popover>
 );
 

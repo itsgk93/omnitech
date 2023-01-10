@@ -1,9 +1,9 @@
 import React from "react";
 import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
-import SectionHeader from "./partials/SectionHeader";
-import Course from "./Courses";
-import { coursesData } from "../../assets/constant/constants";
+import SectionHeader from "../sections/partials/SectionHeader";
+import Course from "../sections/Courses";
+import { coursesData } from "../constants";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -13,7 +13,7 @@ const defaultProps = {
   ...SectionSplitProps.defaults,
 };
 
-const FeaturesSplit = ({
+const CourseContent = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -52,8 +52,9 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: "Courses offered",
-    paragraph: "Below are the list of the course that we are offering",
+    title: "DevOps",
+    paragraph:
+      "DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary to agile software development; several DevOps aspects came from the agile way of working.",
   };
 
   return (
@@ -65,9 +66,16 @@ const FeaturesSplit = ({
             className="center-content has-bottom-divider"
           />
           <div className={splitClasses}>
-            {coursesData.map((course) => (
-              <Course course={course} />
-            ))}
+            {/* {coursesData.map((course) => (
+              <Course
+                id={course.id}
+                title={course.title}
+                desc={course.desc}
+                components={course.components}
+                image={require(`../../assets/images/${course.image}`)}
+              />
+            ))} */}
+            Hello
           </div>
         </div>
       </div>
@@ -75,7 +83,7 @@ const FeaturesSplit = ({
   );
 };
 
-FeaturesSplit.propTypes = propTypes;
-FeaturesSplit.defaultProps = defaultProps;
+CourseContent.propTypes = propTypes;
+CourseContent.defaultProps = defaultProps;
 
-export default FeaturesSplit;
+export default CourseContent;
