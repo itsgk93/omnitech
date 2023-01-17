@@ -69,7 +69,7 @@ export const coursesContentData = [
     },
     {
         title: "Infrastructure-as-Code",
-        id: "IaC",
+        id: "iac",
         content: [
             "I-a-C Introduction",
             "Concept",
