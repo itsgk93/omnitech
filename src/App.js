@@ -43,16 +43,16 @@ const App = () => {
               </LayoutDefault>
             }
           />
-          <Route
+          {/* <Route
             path="/omnitech"
             element={
               <LayoutDefault>
                 <Home />
               </LayoutDefault>
             }
-          />
+          /> */}
           <Route
-            path="/course"
+            path="/course/:id"
             element={
               <CourseContent/>
             }

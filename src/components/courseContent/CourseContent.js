@@ -1,8 +1,11 @@
 import React from "react";
 import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
+import { List } from "antd";
 import SectionHeader from "../sections/partials/SectionHeader";
-import Course from "../sections/Courses";
+import { useParams } from "react-router-dom";
+import { coursesData } from "../../assets/constant/constants";
+import FeatureCard from "./FeatureCard";
 
 const propTypes = {
   ...SectionSplitProps.types,
@@ -50,10 +53,11 @@ const CourseContent = ({
     alignTop && "align-top"
   );
 
+  const { id } = useParams();
+  const course = coursesData.filter((c) => c.id === id)?.[0];
   const sectionHeader = {
-    title: "DevOps",
-    paragraph:
-      "DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary to agile software development; several DevOps aspects came from the agile way of working.",
+    title: course.title,
+    paragraph: course.desc,
   };
 
   return (
@@ -65,16 +69,27 @@ const CourseContent = ({
             className="center-content has-bottom-divider"
           />
           <div className={splitClasses}>
-            {/* {coursesData.map((course) => (
-              <Course
-                id={course.id}
-                title={course.title}
-                desc={course.desc}
-                components={course.components}
-                image={require(`../../assets/images/${course.image}`)}
-              />
-            ))} */}
-            Hello
+            {/* <List
+              grid={{
+                gutter: 16,
+                xs: 1,
+                sm: 2,
+                md: 2,
+                lg: 3,
+                xl: 3,
+                xxl: 3,
+              }}
+              dataSource={course.components}
+              renderItem={(item) => (
+                <List.Item style={{ paddingLeft: "0px" }}>
+                  <div >
+                  <div style={{fontSize: '50px', color: 'white', fontWeight: 'bold'}}>{item.title}</div>
+                  {/* <div>{item.desc}</div> */}
+                  {/* </div>
+                </List.Item> */}
+              {/* )}
+            /> */} 
+            <FeatureCard components={course.components} />
           </div>
         </div>
       </div>

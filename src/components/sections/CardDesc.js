@@ -28,8 +28,7 @@ const CourseDesc = ({ description, components, id }) => (
       )}
     />
     <div style={{ display: "flex", justifyContent: "end" }}>
-      {" "}
-      <NavLink to={`course`}>
+      <NavLink to={`course/${id}`}>
         <Button type="primary">View Course Content</Button>
       </NavLink>
     </div>
