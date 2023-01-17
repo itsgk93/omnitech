@@ -7,6 +7,7 @@ import { useParams } from "react-router-dom";
 import { coursesData } from "../../assets/constant/constants";
 import FeatureCard from "./FeatureCard";
 
+
 const propTypes = {
   ...SectionSplitProps.types,
 };

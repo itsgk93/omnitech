@@ -6,22 +6,27 @@ export const coursesData = [
     components: [
       {
         title: "GIT / SVN",
+        id: "git",
         desc: "Git is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.  SVN is distributed as open source, and its model utilizes a centralized version control system, meaning all information and files are stored on a central server. ",
       },
       {
         title: "Jenkins / Gitlab",
+        id: "jenkins",
         desc: "Jenkins helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat.  GitLab, a DevOps software package that combines the ability to develop, secure, and operate software in a single application. ",
       },
       {
         title: "Ansible/Chef/Puppet",
+        id: "ansible",
         desc: "Ansible is a suite of software tools that enables infrastructure as code. Chef - When there is a failure on the primary server i.e. chef server, it has a backup server to take the place of the primary server.  Puppet has multi-master architecture, if the active master goes down, the other master takes the active master place.",
       },
       {
         title: "Terraform",
+        id: "teraform",
         desc: "Terraform is an IAC tool, used primarily by DevOps teams to automate various infrastructure tasks.",
       },
       {
         title: "Nagios",
+        id: "nagios",
         desc: "Nagios is an open source monitoring system for computer systems. It was designed to run on the Linux operating system and can monitor devices running Linux, Windows and Unix operating systems (OSes).",
       },
     ],
@@ -33,9 +38,21 @@ export const coursesData = [
 
     desc: "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center.",
     components: [
-      { title: "AWS", desc: "AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. " },
-      { title: "Azure", desc: "Microsoft Azure, formerly known as Windows Azure, is Microsoft's public cloud computing platform. It provides a broad range of cloud services, including compute, analytics, storage and networking." },
-      { title: "GCP", desc: "The Google Cloud console provides a web-based, graphical user interface that you can use to manage your Google Cloud projects and resources." },
+      {
+        title: "AWS",
+        id: "aws",
+        desc: "AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. ",
+      },
+      {
+        title: "Azure",
+        id: "azure",
+        desc: "Microsoft Azure, formerly known as Windows Azure, is Microsoft's public cloud computing platform. It provides a broad range of cloud services, including compute, analytics, storage and networking.",
+      },
+      {
+        title: "GCP",
+        id: "gcp",
+        desc: "The Google Cloud console provides a web-based, graphical user interface that you can use to manage your Google Cloud projects and resources.",
+      },
     ],
     image: "cloud.jpeg",
   },
@@ -47,14 +64,18 @@ export const coursesData = [
     components: [
       {
         title: "Tableau",
+        id: "tableau",
+
         desc: "Tableau products query relational databases, online analytical processing cubes, cloud databases, and spreadsheets to generate graph-type data visualizations.",
       },
       {
         title: "NLP",
+        id: "nlp",
         desc: "Natural language processing (NLP) refers to the branch of computer science—and more specifically, the branch of artificial intelligence or AI—concerned with giving computers the ability to understand text and spoken words in much the same way human beings can.",
       },
       {
         title: "Python",
+        title: "python",
         desc: "Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems.",
       },
     ],
