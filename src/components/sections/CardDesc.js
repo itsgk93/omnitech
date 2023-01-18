@@ -1,7 +1,7 @@
 import React from "react";
 import Pill from "./Pill";
 import { List, Button } from "antd";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const CourseDesc = ({ description, components, id }) => (
   <div>
@@ -28,9 +28,9 @@ const CourseDesc = ({ description, components, id }) => (
       )}
     />
     <div style={{ display: "flex", justifyContent: "end" }}>
-      <NavLink to={`course/${id}`}>
+      <Link to={`course/${id}`}  >
         <Button type="primary">View Course Content</Button>
-      </NavLink>
+      </Link>
     </div>
   </div>
 );

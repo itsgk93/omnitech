@@ -9,6 +9,7 @@ import LayoutDefault from "./layouts/LayoutDefault";
 // Views
 import Home from "./views/Home";
 import CourseContent from "./components/courseContent/CourseContent";
+import { isPhone } from "./assets/constant/constants";
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -29,6 +30,8 @@ const App = () => {
     trackPage(page);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
+
+  // console.log(window.innerWidth < 450)
 
   return (
     <ScrollReveal
@@ -54,7 +57,9 @@ const App = () => {
           <Route
             path="/course/:id"
             element={
-              <CourseContent/>
+              <LayoutDefault>
+                <CourseContent />
+              </LayoutDefault>
             }
           />
         </Routes>
