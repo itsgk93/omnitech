@@ -92,3 +92,5 @@ export const coursesData = [
     image: "aiml.jpeg",
   },
 ];
+
+export let isPhone = window.innerWidth < 450;

@@ -15,6 +15,7 @@ const defaultProps = {
 }
 
 const Hero = ({
+  contentPage = false,
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -38,7 +39,7 @@ const Hero = ({
   }   
 
   const outerClasses = classNames(
-    'hero section center-content',
+    'hero center-content',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -67,45 +68,20 @@ const Hero = ({
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
               Learn AWS Cloud/DevOps Engineering, Build Hands-on Projects on AWS, and Start a Career in Cloud Computing                </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                {/* <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
-                    </Button>
-                </ButtonGroup> */}
-                <Image
-                  src={require('./../../assets/images/main_pic.jpeg')}
+                
+             
+              </div>
+              
+            </div>
+          </div>
+          { contentPage ? null : <Image
+                  src={ require('./../../assets/images/content.jpeg')}
                   alt="Features split 01"
 
                   width={1200}
-                  height={600} />
-              </div>
-            </div>
-          </div>
-          {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a>
-          </div> */}
-          {/* <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" /> */}
+                  height={600} />  }
         </div>
+        
       </div>
     </section>
   );
