@@ -66,12 +66,7 @@ const FeaturesSplit = ({
           />
           <div className={splitClasses}>
             {coursesData.map((course) => (
-              <Course
-                title={course.title}
-                desc={course.desc}
-                components={course.components}
-                image={require(`../../assets/images/${course.image}`)}
-              />
+              <Course course={course} />
             ))}
           </div>
         </div>

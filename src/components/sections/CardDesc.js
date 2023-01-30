@@ -1,8 +1,9 @@
 import React from "react";
 import Pill from "./Pill";
-import { List } from "antd";
+import { List, Button } from "antd";
+import { Link } from "react-router-dom";
 
-const CourseDesc = ({ description, components }) => (
+const CourseDesc = ({ description, components, id }) => (
   <div>
     <div className="mb-32">{description}</div>
 
@@ -17,14 +18,20 @@ const CourseDesc = ({ description, components }) => (
         xxl: 3,
       }}
       dataSource={components}
-    //   style={{marginRight: '10px'}}
+      //   style={{marginRight: '10px'}}
       renderItem={(item) => (
-        <List.Item style={{paddingLeft: '0px'}}>
-            <div>
-          <Pill title={item.title} desc={item.desc} /></div>
+        <List.Item style={{ paddingLeft: "0px" }}>
+          <div>
+            <Pill title={item.title} desc={item.desc} />
+          </div>
         </List.Item>
       )}
     />
+    <div style={{ display: "flex", justifyContent: "end" }}>
+      <Link to={`course/${id}`}  >
+        <Button type="primary">View Course Content</Button>
+      </Link>
+    </div>
   </div>
 );
 
